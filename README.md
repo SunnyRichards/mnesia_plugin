@@ -1,10 +1,9 @@
-mnesia_plugin
-=====
+# [mnesia_plugin](https://github.com/SunnyRichards/mnesia_plugin)
 
-An OTP application
+## Contacts
 
-Build
------
+Author - Sunny Richards  ([sunny.s@redbus.com](mailto:sunny.s@redbus.com))
 
-    $ rebar3 compile
-# mnesia_plugin
+## Overview
+
+mnesia database utility.
