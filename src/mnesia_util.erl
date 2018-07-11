@@ -161,7 +161,7 @@ all_keys(TableName) ->
 
 %%======================================================================================================================
 %% @doc - delete
-%% Handles replacing the primary key (basically delete/write) of the entire data in the database
+%% Handles replacing the primary key (basically delete/write) of the entire data in the database.
 %%======================================================================================================================
 
 replace_key(TableName,OldKey,LockKind,Record) ->
@@ -178,7 +178,7 @@ replace_key(TableName,OldKey,LockKind,Record) ->
 
 %%======================================================================================================================
 %% @doc - delete
-%% Handles creating a Key-Value pair in a table only if certain data is present in another table
+%% Handles creating a Key-Value pair in a table only if certain data is present in another table.
 %%======================================================================================================================
 
 check_n_write_multiple_tab(TableName1,TableName2,Key,LockKind,Record) ->
